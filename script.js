@@ -8,7 +8,7 @@ function handleWindowResize() {
     var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
 
     // Update the dimensions on the webpage
-    var dimensionsElement = document.getElementById("size-info");
+    var dimensionsElement = document.getElementById("sizeInfo");
     dimensionsElement.innerHTML = "Width: " + width + ", Height: " + height;
 }
 
